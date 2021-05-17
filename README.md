@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/d606n6k/react-employee-directory" />
+    <img src="https://img.shields.io/github/languages/top/d606n6k/react-employee-directory"  />
+    <img src="https://img.shields.io/github/issues/d606n6k/react-employee-directory" />
+    <img src="https://img.shields.io/github/last-commit/d606n6k/react-employee-directory" >
+    <a href="https://github.com/d606n6k"><img src="https://img.shields.io/github/followers/d606n6k?style=social" target="_blank" /></a>
+    <a href="https://twitter.com/emericas1">
+        <img alt="Twitter: emericas1" src="https://img.shields.io/twitter/follow/emericas1.svg?style=social" target="_blank" />
+    </a>
+</p>
+  
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/React-blue" />
+    <img src="https://img.shields.io/badge/Heroku-lightgrey" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Employee Directory
 
-## Available Scripts
+![React Employee Directory Homepage Image](./public/screenshot.png)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This simple application will allow users to filter Employees by an Age button. Also, when the user begins typing into the input field, the table will filter based on whats in the input box. Plans for future iteration will include buttons to filter by Name, Email and Phone in addition to the Age filter button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Live URL: https://d606n6k.github.io/react-employee-directory/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+- Navigate to https://d606n6k.github.io/react-employee-directory/ to view your employee dashboard!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+License: MIT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With Node.js And These Node Packages
 
-### `npm run eject`
+- [React.js](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [npmjs](https://docs.npmjs.com/)
+- [Heroku](https://heroku.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How to Contribute
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you would like to contribute to this project, please fork the project as needed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Have any questions for the author? Contact this author via [Email](mailto:aaronlucht@gmail.com)
 
-## Learn More
+Check out the author's [Github](https://github.com/d606n6k)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [d606n6k](https://github.com/d606n6k)
