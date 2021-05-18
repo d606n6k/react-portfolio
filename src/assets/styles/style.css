@@ -1,0 +1,550 @@
+/* Begin Custom Styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #eeeef7;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: #31343d;
+  color: #31343d;
+  align-items: center;
+}
+
+#portfolio-name {
+  width: 100%;
+  text-align: center;
+}
+
+#navigation {
+  width: 100%;
+  text-align: center;
+  display: inline;
+  flex-direction: row;
+}
+
+#navigation li {
+  background-color: #31343d;
+  display: inline;
+  padding: 10px;
+}
+
+.navigation ul {
+  height: 50px;
+  padding: 15px 0;
+}
+
+.nav-flex-container {
+  justify-content: center;
+  flex-direction: row;
+}
+
+nav a {
+  color: #92ccce;
+  border-bottom: 3px solid #92ccce;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 44px;
+  flex: 1 0 60px;
+  line-height: 70px;
+  background-color: #92ccce;
+}
+
+.container ul li {
+  text-align: center;
+  border-bottom: solid 3px;
+  display: inline;
+  padding: 3px;
+  margin: 3px;
+}
+
+.container ul li a {
+  background-color: #31343d;
+  display: inline;
+  color: #92ccce;
+}
+
+#hero {
+  width: 100%;
+  position: relative;
+  background-color: #eeeef7;
+}
+
+#william-hero {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+#william-hero img {
+  border-radius: 5px;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#hero figcaption {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 28px;
+  background-color: #92ccce;
+  color: #44587f;
+  padding: 2px 10px;
+  top: 80%;
+  right: 10px;
+}
+/* About Me Section */
+
+#about-me-inner {
+  padding: 32px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+#about-me-inner h2 {
+  /* height: 147px;
+    flex: 1 0 0px;
+    font-size: 44px;
+    text-align: left;
+    margin-right: 25px;
+    line-height: 60px; */
+  padding: 0 20px 5px 0;
+  font-weight: 900;
+}
+
+#about-me-inner p {
+  padding: 0px 6px;
+}
+#intro {
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 12px;
+}
+#connect-with {
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 12px;
+  margin-top: 6px;
+}
+/* Work Section */
+#work {
+  background-color: #161616;
+}
+#work-h2 {
+  max-width: 1110px;
+  margin: 0 auto;
+  color: white;
+}
+hr {
+  border-top: 2px solid rgb(255 120 4);
+}
+#work-h2 h2 {
+  font-weight: 900;
+  padding: 18px 20px 5px 0;
+}
+
+.work-examples {
+  padding: 0 20px;
+}
+
+.boxx {
+  border: solid 1px rgb(0, 0, 0);
+  color: white;
+}
+
+#work-example-1 {
+  height: 200px;
+  margin-bottom: 0;
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/weather-db.png");
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#work-example-1:hover {
+  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/weather-db.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#work-example-2 {
+  height: 200px;
+  margin-top: 6px;
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/recipeshuffle.png");
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#work-example-2:hover {
+  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/recipeshuffle.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#work-example-3 {
+  height: 200px;
+  margin-top: 6px;
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/workdayscheduler.png");
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#work-example-3:hover {
+  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/workdayscheduler.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+#work-example-4 {
+  height: 200px;
+  margin-top: 6px;
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/neighborhood.png");
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#work-example-4:hover {
+  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/neighborhood.png");
+  background-size: cover;
+  cursor: pointer;
+}
+#work-example-5 {
+  height: 200px;
+  margin-top: 6px;
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/ecomm.png");
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#work-example-5:hover {
+  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
+    url("../../assets/images/ecomm.png");
+  background-size: cover;
+  cursor: pointer;
+}
+#project-examp-one {
+  width: 100%;
+  height: 100%;
+}
+
+#project-examp-two {
+  width: 100%;
+  height: 100%;
+}
+#project-examp-three {
+  width: 100%;
+  height: 100%;
+}
+
+.project-info {
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.project-info p {
+  margin-bottom: 5px;
+}
+
+.work-stuff:last-child {
+  padding-bottom: 10px;
+}
+
+/* Contact Me Section */
+#contact-me-inner {
+  flex-direction: row;
+  padding: 32px;
+  color: #44587f;
+}
+
+#contact-me-inner h2 {
+  border-bottom: solid 4px #44587f;
+  font-size: 44px;
+  width: 100%;
+}
+
+#contact-me-inner ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#contact-me-inner li {
+  padding: 20px;
+  justify-content: center;
+}
+
+#contact-me-inner a {
+  color: #364564;
+  text-decoration: none;
+}
+
+/* Media Queries */
+/* Small smartphones - image placeholders change color */
+@media only screen and (min-width: 576px) {
+  nav {
+    background-color: #31343d;
+  }
+
+  nav li {
+    display: flex;
+    justify-content: center;
+    background-color: #31343d;
+  }
+
+  nav a {
+    background-color: #31343d;
+    color: #92ccce;
+    border-bottom: 3px solid #92ccce;
+  }
+
+  #william-hero {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  #william-hero img {
+    border-radius: 25px;
+  }
+
+  #hero figcaption {
+    font-size: 40px;
+  }
+
+  #navigation li {
+    background-color: #31343d;
+    display: inline;
+    padding: 10px;
+  }
+
+  #work {
+    background-color: #161616;
+  }
+
+  #work-example-1 {
+    height: 200px;
+    margin-bottom: 6px;
+  }
+
+  #work-example-2 {
+    height: 200px;
+    margin-right: 3px;
+    margin-top: 0;
+  }
+
+  #work-example-3 {
+    height: 200px;
+    margin-left: 3px;
+    margin-top: 0;
+  }
+
+  #work-example-4 {
+    height: 200px;
+    margin-right: 3px;
+  }
+
+  #work-example-5 {
+    height: 200px;
+    margin-left: 3px;
+  }
+
+  #about-me-inner {
+    text-align: left;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+  }
+
+  .nav-flex-container {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .col-1 {
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+  }
+
+  .content-row {
+    width: 50%;
+  }
+}
+/* Large smartphones - navbar changes color */
+@media only screen and (min-width: 768px) {
+  nav {
+    background-color: #31343d;
+    color: #92ccce;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 200px;
+  }
+
+  #navigation li {
+    background-color: #31343d;
+    padding: 20px;
+    margin: 22px 0;
+  }
+
+  h1 {
+    width: 340px;
+    font-size: 34px;
+    font-weight: bolder;
+    height: 66px;
+    position: relative;
+    text-align: right;
+    margin: 20px 0;
+    padding: 0px 10px 30px 0;
+    font-weight: bold;
+    background-color: #92ccce;
+    color: #31343d;
+  }
+
+  #william-hero {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+
+  #william-hero img {
+    border-radius: 60px;
+  }
+
+  #work-example-1 {
+    height: 200px;
+    margin-bottom: 6px;
+  }
+
+  #work-example-2 {
+    height: 200px;
+    margin-right: 3px;
+  }
+
+  #work-example-3 {
+    height: 200px;
+    margin-left: 3px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  header {
+    background-color: #31343d;
+    color: #92ccce;
+    align-items: initial;
+  }
+
+  #portfolio-name {
+    position: relative;
+    justify-content: left;
+    width: 200px;
+  }
+
+  #william-hero {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+
+  #william-hero img {
+    border-radius: 165px;
+  }
+
+  #hero figcaption {
+    font-size: 40px;
+  }
+
+  #about-me {
+    background-color: #eeeef7;
+  }
+
+  #about-me-inner {
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  #about-me-inner h2 {
+    /* height: 147px;
+        flex: 1 0 0px;
+        font-size: 44px;
+        text-align: right; */
+    /* background-color: purple; */
+    /* margin-right: 25px;
+        line-height: 120px;
+        padding-right: 14px;
+        border-right: solid 4px #44587F;
+        color: #44587F; */
+    padding: 0 20px 5px 10px;
+    font-weight: 900;
+  }
+
+  #about-me-inner p {
+    /* flex: 1 0 60px;
+        margin: 0 10px 0 0; */
+    padding: 0 20px;
+  }
+
+  #work-example-1 {
+    height: 200px;
+    margin-bottom: 6px;
+  }
+
+  #work-example-2 {
+    height: 200px;
+    margin-right: 3px;
+  }
+
+  #work-example-3 {
+    height: 200px;
+    margin-left: 3px;
+  }
+}

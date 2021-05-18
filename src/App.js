@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Helmet } from "react-helmet";
+import Header from "./components/Header";
+import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>William Lucht - Portfolio</title>
+        <meta
+          name="description"
+          content="William Lucht's React based Portfolio"
+        />
+        <meta name="theme-color" content="#008f68" />
+        <script
+          src="./assets/scripts/script.js"
+          type="text/javascript"
+        ></script>
+      </Helmet>
+      <div>
+        <Header />
+        <Container />
+      </div>
+    </>
   );
 }
 
