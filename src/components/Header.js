@@ -1,7 +1,8 @@
 import React from "react";
+import Pdf from "../assets/pdf/williamlucht-resume.pdf";
 // import logo from "../logo.svg";
 
-function Header() {
+function Header(props) {
   return (
     <div className="App">
       <header className="flex-container">
@@ -21,7 +22,7 @@ function Header() {
                 <a href="#connect-with">Contact Me</a>
               </li>
               <li>
-                <a href="./assets/pdf/williamlucht-resume.pdf" target="_blank">
+                <a href={Pdf} target="_blank" rel="noreferrer">
                   Resume
                 </a>
               </li>

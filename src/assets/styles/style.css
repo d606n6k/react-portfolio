@@ -173,8 +173,13 @@ hr {
   border: solid 1px rgb(0, 0, 0);
   color: white;
 }
+
 .icon-spacer {
   margin-left: 3px;
+}
+.work-examples > div {
+  padding-left: 0;
+  padding-right: 0;
 }
 #work-example-1 {
   height: 200px;

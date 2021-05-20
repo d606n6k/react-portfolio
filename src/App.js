@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
 import { Helmet } from "react-helmet";
 import Header from "./components/Header";
 import Container from "./components/Container";

@@ -10,30 +10,65 @@ function SecondSection() {
       </div>
       <div className="container-md work-stuff">
         <div className="content row work-examples">
-          <a
-            href="https://github.com/d606n6k/weather-dashboard"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div id="work-example-1" className="col-xl-12 boxx">
-              <div id="project-examp-one"></div>
-            </div>
-          </a>
-          <div id="work-example-2" className="col-sm boxx">
-            <div id="project-examp-two"></div>
+          <div className="col-xl-12">
+            <a
+              href="https://github.com/d606n6k/weather-dashboard"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div id="work-example-1" className="col-xl-12 boxx">
+                <div id="project-examp-one"></div>
+              </div>
+            </a>
           </div>
-          <div id="work-example-3" className="col-sm boxx">
-            <div id="project-examp-three"></div>
+          <div className="col-sm">
+            <a
+              href="https://github.com/d606n6k/recipe-shuffle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div id="work-example-2" className="col-sm boxx">
+                <div id="project-examp-two"></div>
+              </div>
+            </a>
+          </div>
+          <div className="col-sm">
+            <a
+              href="https://github.com/d606n6k/work-day-scheduler"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div id="work-example-3" className="col-sm boxx">
+                <div id="project-examp-three"></div>
+              </div>
+            </a>
           </div>
         </div>
         <div className="content row work-examples">
-          <div id="work-example-4" className="col-sm boxx">
-            <div id="project-examp-four"></div>
+          <div className="col-sm">
+            <a
+              href="https://github.com/d606n6k/neighborhood_ranking_app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div id="work-example-4" className="col-sm boxx">
+                <div id="project-examp-four"></div>
+              </div>
+            </a>
           </div>
-          <div id="work-example-5" className="col-sm boxx">
-            <div id="project-examp-five"></div>
+          <div className="col-sm">
+            <a
+              href="https://github.com/d606n6k/ecommerce_backend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div id="work-example-5" className="col-sm boxx">
+                <div id="project-examp-five"></div>
+              </div>
+            </a>
           </div>
         </div>
+
         <div className="project-info">
           <h4>The Weather Dashboard</h4>
           <p>
