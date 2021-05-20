@@ -2,7 +2,7 @@ import React from "react";
 import Pdf from "../assets/pdf/williamlucht-resume.pdf";
 // import logo from "../logo.svg";
 
-function Header(props) {
+function Header() {
   return (
     <div className="App">
       <header className="flex-container">
@@ -11,7 +11,7 @@ function Header(props) {
         </section>
         <section id="navigation" className="flex-wrap">
           <nav>
-            <ul className="flex-container nav-flex-container">
+            <ul className="nav-ul flex-container nav-flex-container">
               <li>
                 <a href="#about-me-inner">About Me</a>
               </li>

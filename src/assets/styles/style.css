@@ -46,15 +46,26 @@ header {
   padding: 15px 0;
 }
 
+.nav-ul {
+  padding-left: 0;
+}
+
 .nav-flex-container {
   justify-content: center;
   flex-direction: row;
 }
 
 nav a {
-  color: #92ccce;
-  border-bottom: 3px solid #92ccce;
+  background-color: #31343d;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+nav a:hover {
+  color: #ff9425;
   text-decoration: none;
+  border-bottom: 3px solid #ff9425;
+  transition: 0.5s;
 }
 
 h1 {
@@ -62,7 +73,7 @@ h1 {
   font-size: 44px;
   flex: 1 0 60px;
   line-height: 70px;
-  background-color: #92ccce;
+  background-color: #ffffff;
 }
 
 .container ul li {
