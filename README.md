@@ -35,16 +35,13 @@ Live URL: https://d606n6k.github.io/react-portfolio/
 
 - Navigate to https://d606n6k.github.io/react-portfolio/ to view my personal React portfolio!
 
-## License
-
-License: MIT
-
 ## Built With Node.js And These Node Packages
 
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [npmjs](https://docs.npmjs.com/)
-- [Heroku](https://heroku.com)
+- [Helmet](https://www.npmjs.com/package/react-helmet)
+- [Font-Awesome](https://www.npmjs.com/package/font-awesome)
 
 ## How to Contribute
 
@@ -54,7 +51,7 @@ If you would like to contribute to this project, please fork the project as need
 
 Have any questions for the author? Contact this author via [Email](mailto:aaronlucht@gmail.com)
 
-Check out the author's [Github](https://github.com/d606n6k)
+## Check out the author's [Github](https://github.com/d606n6k)
 
 ## Credits
 

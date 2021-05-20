@@ -7,7 +7,7 @@ function FirstSection() {
         <section id="about-me-inner" className="col-sm">
           <div id="intro">
             <h2 className="flex-wrap">Get to know William...</h2>
-            <p className="flex-wrap">
+            <p className="flex-wrap first-p">
               A strong work ethic is the basis for all success. With over 5
               years Web Development experience primarily focused on E-Commerce
               Implementations, I put forward my drive and passion for the Web
