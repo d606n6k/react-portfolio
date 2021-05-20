@@ -16,14 +16,10 @@ function App() {
         />
         <meta name="theme-color" content="#008f68" />
         <script
-          src="./assets/scripts/script.js"
-          type="text/javascript"
-        ></script>
-        <script
           src="https://kit.fontawesome.com/542b46dc44.js"
           crossorigin="anonymous"
         ></script>
-        <link href="path/to/font-awesome/css/font-awesome.min.css"></link>
+        {/* <link href="path/to/font-awesome/css/font-awesome.min.css"></link> */}
       </Helmet>
       <div>
         <Header />
