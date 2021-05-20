@@ -11,23 +11,25 @@ function Footer() {
             href="https://twitter.com/emericas1"
             target="_blank"
             role="button"
+            rel="noreferrer"
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fa fa-twitter"></i>
           </a>
           <a
             className="btn btn-outline-light btn-floating m-1"
             href="https://www.linkedin.com/in/williamlucht/"
             target="_blank"
             role="button"
+            rel="noreferrer"
           >
-            <i className="fab fa-linkedin-in"></i>
+            <i className="fa fa-linkedin"></i>
           </a>
           <a
             className="btn btn-outline-light btn-floating m-1"
             href="https://github.com/d606n6k"
             role="button"
           >
-            <i className="fab fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
         </section>
       </div>
@@ -40,6 +42,7 @@ function Footer() {
           className="text-white"
           href="https://github.com/d606n6k"
           target="_blank"
+          rel="noreferrer"
         >
           William Lucht
         </a>

@@ -37,7 +37,11 @@ function FirstSection() {
             </p>
             <p>
               via{" "}
-              <a href="https://github.com/d606n6k" target="_blank">
+              <a
+                href="https://github.com/d606n6k"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
             </p>
@@ -46,6 +50,7 @@ function FirstSection() {
                 href="https://www.linkedin.com/in/williamlucht/"
                 target="_blank"
                 role="button"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>

@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import FirstSection from "./FirstSection";
 import SecondSection from "./SecondSection";
 import Footer from "./Footer";
-
+import "font-awesome/css/font-awesome.min.css";
 function Main() {
   return (
     <main>
