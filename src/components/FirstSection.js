@@ -16,8 +16,6 @@ function FirstSection() {
               to enterprise level Salesforce implementations for multi million
               dollar companies.
             </p>
-            <br />
-
             <p>
               My vast understanding of the E-Commerce ecosystem has garnered
               positive reviews and acknowledgement from those I work for. Please
@@ -29,10 +27,10 @@ function FirstSection() {
           <div id="connect-with">
             <h2>Connect with me!</h2>
             <p>
-              by Phone: <a href="tel:+18586034860">+1 (858)603-4860</a>
+              Phone: <a href="tel:+18586034860">+1 (858)603-4860</a>
             </p>
             <p>
-              by Email:{" "}
+              Email:{" "}
               <a href="mailto:aaronlucht@gmail.com">aaronlucht@gmail.com</a>
             </p>
             <p>
@@ -42,17 +40,18 @@ function FirstSection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github
+                <i class="fab fa-github"></i> - Github
               </a>
             </p>
             <p>
+              via{" "}
               <a
                 href="https://www.linkedin.com/in/williamlucht/"
                 target="_blank"
                 role="button"
                 rel="noreferrer"
               >
-                LinkedIn
+                <i className="fa fa-linkedin"></i> - LinkedIn
               </a>
             </p>
           </div>
