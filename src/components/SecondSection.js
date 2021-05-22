@@ -31,7 +31,7 @@ class SecondSection extends Component {
         </div>
         <div className="container-md work-stuff">
           <div className="content row work-examples">
-            <Project repo={this.state.projects} />
+            <Project key={this.state.projects.id} repo={this.state.projects} />
             <div className="col-sm">
               <a
                 href="https://github.com/d606n6k/recipe-shuffle"
