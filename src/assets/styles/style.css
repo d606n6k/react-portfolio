@@ -184,6 +184,7 @@ h1 {
   max-width: 1110px;
   margin: 0 auto;
   color: white;
+  text-align: center;
 }
 hr {
   border-top: 2px solid rgb(255 120 4);
@@ -412,6 +413,10 @@ hr {
     background-image: url(../images/background_rusty.jpg);
   }
 
+  #work-h2 h2 {
+    text-align: left;
+  }
+
   #work-example-1 {
     height: 200px;
     margin-bottom: 6px;
@@ -463,7 +468,7 @@ hr {
     width: 50%;
   }
 }
-/* Large smartphones - navbar changes color */
+/* Large smartphones */
 @media only screen and (min-width: 768px) {
   nav {
     background-color: #31343d;
