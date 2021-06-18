@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../assets/pdf/williamlucht-resume.pdf";
+import Pdf from "../assets/pdf/William_Lucht_Software_Engineer_V2.PDF";
 // import logo from "../logo.svg";
 
 function Header() {
