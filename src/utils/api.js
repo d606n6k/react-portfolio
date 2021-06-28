@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
   fetchRepos: function () {
-    return axios.get("https://api.github.com/users/d606n6k/repos");
+    return axios.get("https://api.github.com/users/d606n6k/repos?per_page=50");
   },
 };
 

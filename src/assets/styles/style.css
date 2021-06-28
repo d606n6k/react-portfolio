@@ -214,16 +214,14 @@ hr {
   height: 200px;
   margin-bottom: 0;
   /* background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)); */
-  background: linear-gradient(rgb(255 255 255 / 45%), rgb(118 118 118 / 45%)),
-    url("../../assets/images/weather-db.png");
+  background: url("../../assets/images/weather-db.png");
   background-size: cover;
   border-radius: 3px;
 }
 
 #work-example-1:hover {
   /* background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)); */
-  background: linear-gradient(rgb(255 255 255 / 0%), rgb(118 118 118 / 45%)),
-    url("../../assets/images/weather-db.png");
+  background: url("../../assets/images/weather-db.png");
   background-size: cover;
   cursor: pointer;
 }
@@ -293,6 +291,14 @@ hr {
 #project-examp-one {
   width: 100%;
   height: 100%;
+}
+
+#project-examp-one h5 {
+  padding: 3px 0 0 5px;
+  margin-bottom: 0px;
+}
+#project-examp-one hr {
+  margin: 4px;
 }
 
 #project-examp-two {
