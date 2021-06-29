@@ -10,11 +10,11 @@ function Projects(props) {
             <div id="project-examp-one">
               <h5>Repository Name: {projName.name}</h5>
               <hr />
-              <ul>
+              {/* <ul>
                 <li>
                   Homepage: <a href={projName.homepage}>{projName.homepage}</a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </a>
